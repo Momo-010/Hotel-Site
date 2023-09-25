@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- logo -->
+        <a href="#home">
+        <div class="logo">
+          <h1>VacationRental</h1>
+        </div>
+      </a>
+        <!-- hamburger -->
+        <div class="bars">
+          <input type="checkbox" name="checkbox" id="check" />
+          <label for="check" class="open">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="#FFF"  d="M.75.75h30.5v30.5H.75z"/><g fill="#2C2830"><path d="M8 10h16v1.5H8zM8 15h16v1.5H8zM8 20h16v1.5H8z"/></g></g></svg>
+          </label>
+          <div class="menu">
+            <label for="check" class="close">
+                <div class="logo">
+                 <h1>VacationRental</h1> 
+              </div> 
+              <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z"
+                  fill="black"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </label>
+            <ul>
+              <li>
+                <a href="#home">home</a>
+              </li>
+              <li>
+                <a href="#about us">about</a>
+              </li>
+              <li>
+                <a href="#service">service</a>
+              </li>
+              <li>
+                <a href="#blog">blog</a>
+              </li>
+              <li>
+                <a href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- hero section -->
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <p>welcome to vacation rental</p>
+          <h2>Rent an appartment for your vacation</h2>
+          <div class="hero-button">
+            <button>Learn More</button>
+            <button>Contact us</button>
+          </div>
+        </div>
+      </section>
+      <!-- book your apartment -->
+      <div class="input" id="form-template" style="display: none;">
+        <h2>Book your apartment</h2>
+        <div class="input-text">
+          <input type="text" id="fname" placeholder="Full Name" /><br /><br/>
+          <div class="cc">
+            <div>
+              <input type="text" id="adult-no" placeholder="Adults">
+              <select id="number-dropdown" class="input-dropdown">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <br/><br />
+            </div>
+            <div>
+              <input type="text" id="child-no" placeholder="Children" />
+              <select id="number-dropdown2" class="input-dropdown">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+              <br /><br />
+            </div>
+            <div>
+              <input type="tel" id="num" placeholder="Phone number" /><br /><br />
+            </div>
+            <div>
+              <input type="time" id="time" placeholder="Time" /><br /><br />
+            </div>
+          </div>
+          <button id="book-now">Book Appartment now</button>
+        </div>
+      </div>
+      <!-- map direction -->
+      <div class="dd">
+        <section class="map">
+          <div class="map-text">
+            <img src="images/services-1.jpg.webp" alt="">
+            <h3>Map Direction</h3>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            <button>Read More</button>
+          </div>
+        </section>
+        <section class="map">
+          <div class="map-text">
+            <img src="images/services-2.jpg.webp" alt="">
+            <h3>accomodation service</h3>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic..</p>
+            <button>Read More</button>
+          </div>
+        </section>
+        <section class="map">
+          <div class="map-text">
+            <img src="images/services-3.jpg.webp" alt="">
+            <h3>great experience</h3>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic..</p>
+            <button>Read More</button>
+          </div>
+        </section>
+      </div>
+      <!-- apartment -->
+      <div class="apartment">
+        <h2>Apartment room</h2>
+        <div class="apartment-img">
+          <img src="images/room-1.jpg.webp" alt="">
+          <div class="apartment-text">
+            <h4>suite room</h4>
+            <p>max: 3 persons <br>
+            size: 45 m2 <br>
+            view: sea view <br>
+            bed: 1   </p>
+            <button class="showFormButton">view room details</button>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="apartment-img">
+          <img src="images/room-2.jpg.webp" alt="">
+          <div class="apartment-text">
+            <h4>standard room</h4>
+            <p>max: 3 persons <br>
+            size: 45 m2 <br>
+            view: sea view <br>
+            bed: 1   </p>
+            <button class="showFormButton">view room details</button>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="apartment-img">
+          <img src="images/room-3.jpg.webp" alt="">
+          <div class="apartment-text">
+            <h4>family room</h4>
+            <p>max: 3 persons <br>
+            size: 45 m2 <br>
+            view: sea view <br>
+            bed: 1   </p>
+            <button class="showFormButton">view room details</button>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="apartment-img">
+          <img src="images/room-4.jpg.webp" alt="">
+          <div class="apartment-text">
+            <h4>deluxe room</h4>
+            <p>max: 3 persons <br>
+            size: 45 m2 <br>
+            view: sea view <br>
+            bed: 1   </p>
+            <button class="showFormButton">view room details</button>
+          </div>
+        </div>
+      </div>
+      <!-- testimonial -->
+      
+      <div class="testimonial-gallery">
+        <h2>Happy clients & feedbacks</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <div class="first">
+                    <img src="images/person_1.jpg.webp" alt="">
+                    <div class="first-text">
+                        <p>Far far away, behind the mountains, far from the countries vokalia and consonantia, there live the blind text.</p>
+                        <h3>Racky Henderson</h3>
+                        <p>Father</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="first">
+                    <img src="images/person_2.jpg.webp" alt="">
+                    <div class="first-text">
+                        <p>Far far away, behind the mountains, far from the countries vokalia and consonantia, there live the blind text.</p>
+                        <h3>Racky Henderson</h3>
+                        <p>Father</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="first">
+                    <img src="images/person_3.jpg.webp" alt="">
+                    <div class="first-text">
+                        <p>Far far away, behind the mountains, far from the countries vokalia and consonantia, there live the blind text.</p>
+                        <h3>Racky Henderson</h3>
+                        <p>Father</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="first">
+                    <img src="images/person_1.jpg.webp" alt="">
+                    <div class="first-text">
+                        <p>Far far away, behind the mountains, far from the countries vokalia and consonantia, there live the blind text.</p>
+                        <h3>Racky Henderson</h3>
+                        <p>Father</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="first">
+                    <img src="images/person_2.jpg.webp" alt="">
+                    <div class="first-text">
+                        <p>Far far away, behind the mountains, far from the countries vokalia and consonantia, there live the blind text.</p>
+                        <h3>Racky Henderson</h3>
+                        <p>Father</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="first">
+                    <img src="images/person_3.jpg.webp" alt="">
+                    <div class="first-text">
+                        <p>Far far away, behind the mountains, far from the countries vokalia and consonantia, there live the blind text.</p>
+                        <h3>Racky Henderson</h3>
+                        <p>Father</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+    </div>
+      <div class="vacation-service">
+        <section class="vacation">
+          <img src="images/Lund-4626.jpeg" alt="">
+          <h2>The most recommend vacation rental</h2>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        </section>
+        <section class="service">
+          <h2>What we offer</h2>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          <div id="service-all">
+          <div id="service-4">
+          <div class="service-text">
+            <div class="service-img">
+              <img src="images/mug-saucer-solid.svg" alt="">
+              <div class="second">
+                <h4>Tea Coffe</h4>
+                <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+              </div>
+            </div>
+            <div class="service-img">
+              <img src="images/shower-solid.svg" alt="">
+              <div class="second">
+                <h4>Hot Showers</h4>
+                <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+              </div>
+            </div>
+            <div class="service-img">
+              <img src="images/fan-solid.svg" alt="">
+              <div class="second">
+                <h4>Air conditioning</h4>
+                <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+              </div>
+            </div>
+            <div class="service-img">
+              <img src="images/jug-detergent-solid.svg" alt="">
+              <div class="second">
+                <h4>Laundary</h4>
+                <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div id="service-4-2">
+            <div class="service-img">
+              <img src="images/wifi-solid.svg" alt="">
+              <div class="second">
+                <h4>free Wifi</h4>
+                <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+              </div>
+            </div>
+            <div class="service-img">
+              <img src="images/kitchen-set-solid.svg"">
+              <div class="second">
+                <h4>kitchen</h4>
+                <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+              </div>
+            </div>
+            <div class="service-img">
+              <img src="images/bath-solid.svg" alt="">
+              <div class="second">
+                <h4>Ironing</h4>
+                <p>A small river named Duden flows by their place and supplies it with the necessary <p>
+              </div>
+            </div>
+            <div class="service-img">
+              <img src="images/jug-detergent-solid.svg" alt="">
+              <div class="second">
+                <h4>Lovkers</h4>
+                <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="book">
+        <div class="text">
+          <div class="book-text">
+            <h2>Ready to get started</h2>
+            <p>It's safe to book online with us! Get your dream stay in clicks or drop us a line with your questions</p>
+            <button >book now</button>
+            <button id="contact">contact us</button>
+          </div>
+        </div>
+      </section>
+      <setion class="blog">
+        <h2>Latest news from our blog</h2>
+        <h6>News & Blog</h6>
+        <div id="blog-flex">
+          <div class="blog-img">
+            <img src="images/image_1.jpg.webp" alt="">
+            <div class="blog-text">
+              <h3>work hard, party hard in a luxury chalet in the Alps</h3>
+              <h6>January 30, 2020 Admin </h6>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+          </div>
+          <div class="blog-img">
+            <img src="images/image_2.jpg.webp" alt="">
+            <div class="blog-text">
+              <h3>work hard, party hard in a luxury chalet in the Alps</h3>
+              <h6>January 30, 2020 Admin </h6>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+          </div>
+          <div class="blog-img">
+            <img src="images/image_3.jpg.webp" alt="">
+            <div class="blog-text">
+              <h3>work hard, party hard in a luxury chalet in the Alps</h3>
+              <h6>January 30, 2020 Admin </h6>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+          </div>
+        </div>
+      </setion>
+      <footer>
+        <div class="one">
+          <div class="logo">
+            <h1>VacationRental</h1>
+          </div>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="third">
+            <h3>Service</h3>
+            <a href="">Map direction</a> <br>
+            <a href="">Accomodation Services</a><br>
+            <a href="">Great experience</a><br>
+            <a href="">Perfect central location</a><br>
+        </div>
+        <div class="four">
+            <h3>Tag cloud</h3>
+            <div class="fourth">
+              <a href="">Apartment</a>
+              <a href="">home</a>
+              <a href="">vacation</a>
+              <a href="">rental</a>
+              <a href="">rent</a>
+              <a href="">house</a>
+              <a href="">place</a>
+              <a href="">drinks</a>
+            </div>
+        </div>
+        <section class="sub">
+          <h3>Subscribe</h3>
+          <form id="search-form">
+              <input id="searchbar" type="email" placeholder="Enter emil address">
+              <img src="" alt="">
+          </form>
+      </section>
+      <div class="contact">
+        <h2>follow us</h2>
+        <div class="media">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+        </div>
+      </div>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
